@@ -22,9 +22,9 @@ function Home() {
     return (
         <>
         <div className='mx-11' id='home-section'>
-            <div className='w-full flex flex-col md:flex-row justify-between'>
+            <div className='w-full flex flex-col-reverse md:flex-row justify-between'>
                 {/* text Section */}
-                <div className='w-10/12 mt-20 font-bold'>
+                <div className='w-10/12 mt-10 font-bold'>
                     <h1 className='my-2 text-2xl'>Hi,</h1>
                     <h1 className='my-4 text-2xl'>I am <span className='bg-orange-400 p-1 border-2 border-orange-500 rounded-lg'>Ameer Hamza</span></h1>
                     <span className="text-yellow-900 text-3xl" ref={elementRef}></span>
